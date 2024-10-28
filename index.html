@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <title>Mein Profil</title>
     <link rel="stylesheet" href="styles.css">
+    <script src = "js.js"></script>
 </head>
+
 <body>
+    <script>
+
+        windows.alert ("hello js world!");
+        var my_int = 300;
+        my_int =my_int +100;
+        my_int =my_int +my_text;
+        window.alert(my_int);
+    
+    </script>
     <header>
         <h1>Willkommen auf meiner Profilseite</h1>
         <nav>
@@ -20,6 +31,9 @@
         <p>Ich bin ein Webentwickler und lerne HTML und CSS.</p>
     </section>
 
+
+
+
     <section id="projects">
         <h2>Projekte</h2>
         <div class="project">
@@ -30,6 +44,18 @@
             <h3>Projekt 2</h3>
             <p>Beschreibung des Projekts.</p>
         </div>
+    </section>
+    <section>
+        <label>first number</label>
+        <input  id="first_number" type="number" >
+        <label>second number</label>
+        <input  id="second_number" type="number" >
+        <br><br>
+        <button onclick="my_add()">add</button>
+        <button onclick="my_minus()">minus</button>
+        <button onclick="my_multiple()">multiple</button>
+        <button onclick="my_divide()">divide</button>
+        <br>
     </section>
 
     <footer>
