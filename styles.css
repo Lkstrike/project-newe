@@ -2,36 +2,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #1a1a2e;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #0f3460;
+    color: #e94560;
     padding: 10px 20px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #03e9f4;
     margin: 0 10px;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e94560;
 }
 
 section {
     padding: 20px;
     margin: 10px 0;
+    background-color: #16213e;
+    color: #ffffff;
 }
 
 .project {
-    background-color: #e0e0e0;
+    background-color: #222831;
     padding: 15px;
     margin-bottom: 10px;
+    border-left: 4px solid #03e9f4;
+    color: #c9c9c9;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
+    background-color: #0f3460;
+    color: #03e9f4;
+    text-align:
